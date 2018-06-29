@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Balance Tracker</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Balance Tracker</h1>
+                <span class="contact">
+                    <a href="#">Contact Us</a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div id="container">
+        <a href="index.html" id="logout">Logout</a>
+        <div class="container">
+            <div>
+                <h4>Welcome <span id="name"></span>!</h2>
+                <h2>You currently have
+                    <span id="amount"></span>
+                    <span id="currency-dom"></span>
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 expense-form">
+                    <h4>Add Expense</h4>
+                    <form id="expense-form">
+                        <label for="expense-input">How much money did you spend?</label>
+                        <input type="number" id="expense-input" class="form-control" min="0" required>
+                        <label for="expense-object">What did you spend it on?</label>
+                        <input type="text" id="expense-object" class="form-control" required autocomplete="off">
+                        <br>
+                        <button id="expense-btn" class="btn form-control">Submit</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <h4>Add Income</h4>
+                    <form id="income-form">
+                        <label for="income-input">How much money did you spend?</label>
+                        <input type="number" id="income-input" class="form-control" min="0" required>
+                        <label for="income-source">What's the source of this income?</label>
+                        <input type="text" id="income-source" class="form-control" required autocomplete="off">
+                        <br>
+                        <button id="income-btn" class="btn form-control">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+            <button id="history-btn" class="btn form-control">History</button>
+
+        </div>
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
+        <script src="scripts/users.js"></script>
+        <script src="scripts/balance.js"></script>
+</body>
+
+</html>

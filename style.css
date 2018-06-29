@@ -1,0 +1,197 @@
+#container::after, #signup-form::after {
+    background-image: url(balance.jpg);
+    content: "";
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+}
+
+.hide {
+    opacity: 0;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+    float: left;
+    margin: 20px;
+}
+
+.contact a {
+    float: right;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    margin: 27px;
+}
+
+.alert {
+    width: 40%;
+    margin: 0 auto;
+    margin-top : 40px;
+    text-align: center;
+}
+
+#index-container{
+    color: #383838;
+    margin-top: 7%;
+    
+}
+
+.intro {
+    line-height: 25px;
+    border-right: 1px solid rgb(185, 182, 182);
+}
+
+
+.intro p {
+    text-align: justify;
+    margin-top: 8%; 
+}
+
+
+.signup-link {
+    margin: 30px auto;
+    text-align: center;
+}
+
+#button-login, #signup-button {
+    color: white;
+    background: #6E7A93;
+    font-weight: bold;
+}
+
+#button-login:hover, #signup-button:hover {
+    background: rgb(147, 159, 184);
+} 
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+#signup-form {
+    margin-top: 2%;
+}
+
+h2 {
+    text-align: center;
+    margin: 10%;
+}
+
+#income-btn {
+    background: #96848D;
+    font-weight: bold;
+    color: white;
+}
+
+#income-btn:hover {
+    background: rgb(185, 167, 176)
+} 
+
+#expense-btn {
+    background: #8F99A1;
+    font-weight: bold;
+    color: white;
+}
+
+#expense-btn:hover {
+    background: rgb(177, 188, 197);
+}
+
+.expense-form {
+    border-right: 1px solid rgb(185, 182, 182);
+}
+
+#logout {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 74%;
+    background:rgb(97, 97, 97);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#logout:hover {
+    color: rgb(97, 97, 97);
+    background: #fff;
+    border: 1px solid rgb(97, 97, 97);
+}
+
+.expense-income-container {
+    position: relative;
+    margin: 20px auto;
+}
+
+#expenses, #income {
+    position: absolute; 
+    margin: 20px auto;
+}
+
+.history-title {
+    margin: 0 auto 35px auto;   
+}
+
+.back {
+    z-index: -1;
+    opacity: 0;
+}
+
+
+#history-btn {
+    background: #6E7A93;
+    margin: 40px auto;
+    font-weight: bold;
+    color: #fff;
+}
+
+#history-btn:hover {
+    background: rgb(148, 163, 194);
+}
+
+#history-container {
+    margin-top: 80px;
+}
+
+#back {
+    background: #6E7A93;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 20px;
+}
+
+#back:hover {
+    background: rgb(148, 163, 194);
+}
+
+.card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgb(185, 182, 182);
+}
+
+.card-message {
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.timestamp {
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(158, 154, 154);
+}
+
+h4 {
+    text-align: center;
+    padding-top: 40px; 
+}
+
+.login {
+    padding: 0;
+}
